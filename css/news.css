@@ -1,0 +1,28 @@
+
+.news-row {
+	margin-top: 20px;
+
+}
+
+.newsbox {
+	display: inline-block;
+	width: 340px;
+	margin:5px;
+	vertical-align:top;
+}
+
+.date {
+	font-size:x-small;
+	color:grey;
+	margin-bottom:10px;
+}
+
+.thumbnail {
+	width:100%;
+	
+}
+
+.teaser-text {
+	color:#201821;
+	margin: 10px;
+}

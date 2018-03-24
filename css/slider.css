@@ -1,0 +1,84 @@
+
+#slider-title{
+	margin-top: 30px;
+}
+
+.presenter {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.presenter-image img {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.main {
+	margin-top:50px;
+	margin-left:90px;
+	margin-right:90px;
+}
+
+.top {
+	color: #595959;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	word-spacing: 5px;
+}
+
+.slider-button {
+    border: none;
+		font-size: 20px;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+		font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+		color:white;
+}
+
+.slider-button:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	transition: 1s ease;
+}
+
+.display-right {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+
+.display-left {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+
+.dot{
+	cursor: pointer;
+	height: 14px;
+	width: 14px;
+	margin: 30px 5px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color .6s ease;
+
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}

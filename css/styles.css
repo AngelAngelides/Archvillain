@@ -1,0 +1,78 @@
+*{margin:0;padding:0;box-sizing: border-box}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 65%;
+	margin: 0 auto;
+}
+
+
+.logo-title {
+	text-align: center;
+	background-color: #C63636;
+
+}
+
+.logo {
+	width: auto;
+	height: 175px;
+	float: left;
+	transform: translate(100%, -3%);
+	
+}
+
+nav{
+	background:#C63636;
+	text-align: center;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: bold;
+}
+.navbar {
+	transform: translate(-6%, 00%);
+}
+
+.navbar-items{
+	display: inline-block;
+	padding-bottom: 18px;
+	padding-top: 80px;
+	margin: 0 20px
+	
+
+}
+
+.navbar-items a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #201821;
+	border-bottom: 1px solid transparent;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.navbar-items a:hover{
+	border-bottom: 1px solid #201821;
+	transition: .7s;
+
+}
+
+
+.newsletter{
+	background-color: #fff;
+}
+
+a[id= "home"]:target ~ #header {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[id= "newsletter"]:target ~ #newsletter {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[id= "news"]:target ~ #news {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
