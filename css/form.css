@@ -26,7 +26,8 @@ input[type=text]{
    transition: 0.5s;
    outline: none;
  	 font-family: sans-serif;
- 	 font-size: 14px;
+    font-size: 14px;
+    border-radius: 0;
  }
 
 input[type=text]:focus {
@@ -43,7 +44,8 @@ input[type=email]{
    transition: 0.5s;
    outline: none;
  	 font-family: sans-serif;
- 	 font-size: 14px;
+    font-size: 14px;
+    border-radius: 0;
  }
 
 input[type=email]:focus {

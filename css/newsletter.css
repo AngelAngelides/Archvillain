@@ -55,6 +55,8 @@
   font-size: 14px;
   background-color: #C63636;
   border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 .btn-newsletter:hover{
