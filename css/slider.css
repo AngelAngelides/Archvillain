@@ -5,12 +5,17 @@
 
 .presenter {
 	position: relative;
-	overflow: hidden;
 	margin: 0 auto;
 }
 
-.presenter-image img {
-	width: 100%;
+.mySlides {
+	background-color: white!important;
+}
+
+.presenter picture img {
+	max-width: 100%;
+  	height: auto;
+  	width:auto;
 	box-sizing: border-box;
 }
 
@@ -78,7 +83,6 @@
 	transition: background-color .6s ease;
 
 }
-
 .active, .dot:hover{
 	background-color: #717171;
 }

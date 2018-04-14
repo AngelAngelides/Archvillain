@@ -1,6 +1,14 @@
-var slideIndex = 1;
+
+var slideIndex = 0;
+
+
+
 carousel();
 showDivs(slideIndex);
+
+function plusSlides(n) {
+  showDivs(slideIndex += n);
+}
 
 
 function currentSlide(n) {

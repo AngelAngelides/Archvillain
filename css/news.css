@@ -6,9 +6,10 @@
 
 .newsbox {
 	display: inline-block;
-	width: 340px;
+	width: 31.5%;
 	margin:5px;
 	vertical-align:top;
+	text-decoration: none;
 }
 
 .date {
@@ -19,7 +20,7 @@
 
 .thumbnail {
 	width:100%;
-	
+
 }
 
 .teaser-text {
