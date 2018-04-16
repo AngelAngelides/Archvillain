@@ -13,8 +13,6 @@ body {
 .dropdown {
 	float: right;
 	display: none;	
-	padding-bottom: 18px;
-	padding-top: 40px;
 	padding-right: 10%;
 }
 
@@ -46,8 +44,6 @@ header{
 .logo {
 	width: auto;
 	height: 225px;
-	float: left;
-
 	margin-left: 10%;
 }
 
@@ -57,21 +53,19 @@ nav{
 	font-family: 'Ubuntu Condensed', sans-serif;
 	font-weight: bold;
 	height:127px;
+	padding-top: 80px;
 
 }
 
 
 .navbar-items{
 	display: inline-block;
-	padding-bottom: 18px;
-	padding-top: 80px;
 	margin: 0 20px;
 	z-index: 10;
 
 }
 
 .navbar{
-		height: 130px;
 		display: inline-block;
 		padding-left: 7%
 }
@@ -106,18 +100,17 @@ nav{
 }
 
 .logo-icons img{
-  width: 27px;
+  width: 30px;
   margin-left: 12px;
 }
 
 .logo-icons img:hover{
   transition: all .3s ease-in-out;
-  transform: scale(1.3);
+  transform: scale(2);
 }
 
 .header-social {
 	transform: translate(-200%, 0%);
-	padding-top: 75px;
 	position:relative;
 	display: inline-block;
 	float: right;

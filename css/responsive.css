@@ -30,6 +30,8 @@
 
   .dropdown{
     display:inline;
+    position: relative;
+    top: -30px;
   }
 
   .navbar{
@@ -128,7 +130,8 @@
   }
 
   .dropdown {
-    padding-top: 22px;
+    position: relative;
+    top: -58px;
   }
 
   .btn_toggle {
