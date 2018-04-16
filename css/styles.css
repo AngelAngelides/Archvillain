@@ -99,14 +99,14 @@ nav{
 	display:none;
 }
 
-.logo-icons img{
+.header-social .logo-icons img{
   width: 30px;
   margin-left: 12px;
 }
 
-.logo-icons img:hover{
+.header-social .logo-icons img:hover{
   transition: all .3s ease-in-out;
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .header-social {
@@ -114,4 +114,9 @@ nav{
 	position:relative;
 	display: inline-block;
 	float: right;
+}
+
+.navbar-social .logo-icons img {
+	width: 30px;
+	margin-left: 12px;
 }

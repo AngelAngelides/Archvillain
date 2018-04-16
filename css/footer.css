@@ -18,3 +18,13 @@ footer{
 	display: inline-block;
 	float: right;
 }
+
+.footer-social .logo-icons img:hover{
+	transition: all .3s ease-in-out;
+	transform: scale(1.5);
+  }
+  
+.footer-social .logo-icons img{
+	width: 25px;
+	margin-left: 12px;
+  }
