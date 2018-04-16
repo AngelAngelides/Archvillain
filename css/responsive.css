@@ -4,9 +4,12 @@
     width: 80%;
   }
 
+  .logo-header {
+		left: -20px;
+  }
+
   .logo{
     margin-left: 0;
-    transform: translate(-10%, -15%);
   }
 
   .header-social {
@@ -110,12 +113,13 @@
 
 @media screen and (max-width:550px){
 
+  .logo-header {
+    top: -25px;
+		left: -20px;
+  }
+  
   .logo {
-    width: auto;
     height: 160px;
-    float: left;
-    transform: translate(-30%, -15%);
-    position: absolute;
     margin-left: 7%;
   }
 
