@@ -72,7 +72,12 @@
     -ms-transform: translate(-0%,-50%);
 }
 
-.dot{
+.swiper-pagination {
+	position: static;
+	margin-top: 10px;
+}
+
+.swiper-pagination-bullet{
 	cursor: pointer;
 	height: 14px;
 	width: 14px;
