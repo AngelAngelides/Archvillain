@@ -112,6 +112,11 @@
   footer {
     margin-top: 65px;
   }
+
+  .footer-social .logo-icons img:hover{
+    transition: none;
+    transform: none;
+    }
 }
 
 @media screen and (max-width:550px){
