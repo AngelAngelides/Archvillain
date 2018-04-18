@@ -10,3 +10,8 @@
 #newspage p {
     margin-bottom:15px;
 }
+
+a{
+	text-decoration: none;
+	color: #201821;
+}
