@@ -75,6 +75,7 @@
 .swiper-pagination {
 	position: static;
 	margin-top: 10px;
+	
 }
 
 .swiper-pagination-bullet{
@@ -82,12 +83,13 @@
 	height: 14px;
 	width: 14px;
 	margin: 30px 5px;
-	background-color: #bbb;
+	background-color: #C63636;
 	border-radius: 50%;
 	display: inline-block;
 	transition: background-color .6s ease;
+	opacity: 1;
 
 }
-.active, .dot:hover{
-	background-color: #717171;
+.swiper-pagination-bullet-active{
+	background-color: #201821;
 }
