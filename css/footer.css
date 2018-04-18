@@ -17,6 +17,7 @@ footer{
 	position:relative;
 	display: inline-block;
 	float: right;
+	z-index: 99;
 }
 
 .footer-social a {
