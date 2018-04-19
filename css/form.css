@@ -17,7 +17,7 @@
 }
 
 input[type=text]{
-   width: 30%;
+   width: 40%;
    padding: 8px 15px;
    margin: 10px 0;
    box-sizing: border-box;
@@ -35,7 +35,7 @@ input[type=text]:focus {
  }
 
 input[type=email]{
-   width:30%;
+   width:40%;
    padding: 8px 15px;
    margin: 10px 0;
    box-sizing: border-box;
