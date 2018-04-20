@@ -1,11 +1,10 @@
 language: node_js
 node_js:
-- '7'
+  - '7'
 env:
   global:
-  - FIREBASE_TOKEN: iFsUzGF73z0k/Ii3IHjbNnd5A5e6NgrQuLDSoOztCPhEbQT+IxuZxFLnhr8nPqA7OIbboIQt3YxLDmRcsVRhTQxuojw49EGi+dBA3+dULPfAyL9jJN0k2yuH4ZhsUjjVTa7m1OCV7TPAQUre4XILnX+Xij//cPOaj+tVWuc54iI3bfvdeakrx0QcWv0Gn9ZIMcQ6hSMUdKYLqsx4gTpqGo6BggvvpcM2FfR30jTl5G2qYYGP95eANYxy4hPY/cam2bsJ98w1S9ygO2uQiApZzp9WyrjkUcElkHRcel8Ky17ImT8d5nt4OyvphsDM3fnooGVimicICsAsLAh4xriAQzkQempfKWm+fcIbon+Q58ysl5MKntzvRqkS8u+zsnCZVeaJYQnh2fA5IadObQy1WwpLCne1rmKdnLehUA22XBW23+eRQOA6OJBnX4noXn4zvw68uxtOPyc64Ff55LR5+dNLtzifkrhbpfOubVvSpf4y515/LTHByjtIpOYV9Ejvr96kwq1KPWXWo5QkX7WamXEwrEBfkNsYJeou7x8M44AQCEymKumuAnPoqZve8UzezDDPp5356s5Xjicjps1ILvWLObXYJhGlE14ulO4tZtnSRegggp4QyKXXYCaxkkqj7dhGrKtmPKcHLVriaF6KHyceiLukGqWzjTrb2/RjSeY=
-  - FIREBASE_MASTER: archvillain-86957
-  - FIREBASE_STAGING: archvillain-staging
+    - FIREBASE_MASTER: archvillain-86957
+    - FIREBASE_STAGING: archvillain-staging
 script:
 - firebase --project $FIREBASE_MASTER --token $FIREBASE_TOKEN deploy
 install:
