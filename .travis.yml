@@ -1,13 +1,12 @@
 language: node_js
 node_js:
- - "7"
-global:
-  env:
-    FIREBASE_TOKEN: I6TDMr/evh9AODerl3W07cdas5YlwjR/lvUjKvF/YGlptiWY0Y+YRXTltDoniqIxlunUDKZ+T/kS93f00IjfrRW2LtO/myCfyZ9lSU2UZIH5VMS1YUAajq+XzUrZWKyjNDXegdVL0+3nAjcWXGehPvSZDY3YFS44pYlVhnriE4uadNeAJQuGouSyS98OsKu9rlgz/R4mFpLVDDku11cmi4cAGdrKMIE+2X9TGSlquyoLZ2vjA1t9HLB0qr4hcn/WcP39Ljxm8/BzqOcjmgGD6SY1PprxSCEdpBWE/OBCuCNPHGUQorp5+cTdQzkk/k5Fxtb8NFhAljqZHtRZILfbvuKI6oWMB1lB//29hVdkA4kl0lUvZd7rCyMQavkVEhu+NU+3PxPn5yGtd0vnrGRg78vEFr+Ag04BZl2DUtvCgQpjThZ7AnSKmi8ikEbhbD819zbkXFjklet0AMJbjH7YYiFVaYB/kZuC5vSYsVl1C+ajfGDPPYEkGrvaVpljudhyC6deeQ6qk0Q565oP5hAFrECG6n5dTIgYe9b7j2btsfbBrzp3oM6vboVd1iDlZa8f9Kms+yVPRPP/VLPIps5mTrdyyUXUP9TU2fKYNZ0qebB6GebBDZ3i9FERqqvM6CvSwCuumQLdProToo5kmMUMp6P0KbTSfEtzTTNOD7b19rU=
+- '7'
+env:
+  global:
+    - FIREBASE_TOKEN: I6TDMr/evh9AODerl3W07cdas5YlwjR/lvUjKvF/YGlptiWY0Y+YRXTltDoniqIxlunUDKZ+T/kS93f00IjfrRW2LtO/myCfyZ9lSU2UZIH5VMS1YUAajq+XzUrZWKyjNDXegdVL0+3nAjcWXGehPvSZDY3YFS44pYlVhnriE4uadNeAJQuGouSyS98OsKu9rlgz/R4mFpLVDDku11cmi4cAGdrKMIE+2X9TGSlquyoLZ2vjA1t9HLB0qr4hcn/WcP39Ljxm8/BzqOcjmgGD6SY1PprxSCEdpBWE/OBCuCNPHGUQorp5+cTdQzkk/k5Fxtb8NFhAljqZHtRZILfbvuKI6oWMB1lB//29hVdkA4kl0lUvZd7rCyMQavkVEhu+NU+3PxPn5yGtd0vnrGRg78vEFr+Ag04BZl2DUtvCgQpjThZ7AnSKmi8ikEbhbD819zbkXFjklet0AMJbjH7YYiFVaYB/kZuC5vSYsVl1C+ajfGDPPYEkGrvaVpljudhyC6deeQ6qk0Q565oP5hAFrECG6n5dTIgYe9b7j2btsfbBrzp3oM6vboVd1iDlZa8f9Kms+yVPRPP/VLPIps5mTrdyyUXUP9TU2fKYNZ0qebB6GebBDZ3i9FERqqvM6CvSwCuumQLdProToo5kmMUMp6P0KbTSfEtzTTNOD7b19rU=
+    - FIREBASE_MASTER: archvillain-86957
+    - FIREBASE_STAGING: archvillain-staging
 script:
- - echo "Deploy!!"
+- firebase --project $FIREBASE_MASTER --token $FIREBASE_TOKEN deploy
 install:
- - npm install -g firebase-tools
-after_success:
- - firebase --project archvillain-86957 --token $FIREBASE_TOKEN deploy
- 
+- npm install -g firebase-tools
