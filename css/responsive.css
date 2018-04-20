@@ -97,6 +97,7 @@
   .swiper-pagination {
     display: none;
   }
+
   
   .newsbox {
     width:47.5%;
@@ -146,6 +147,10 @@
   .btn_toggle {
     padding-bottom: 0;
     padding-right: 10%;
+  }
+
+  .box-newsletter{
+    height: 300px;
   }
 
   .h1-box-newsletter{
