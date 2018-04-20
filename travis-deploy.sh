@@ -6,4 +6,6 @@ else
     FIREBASE_PROJECT="$FIREBASE_STAGING"
 fi
 
+echo "Deploying to $FIREBASE_PROJECT"
+
 firebase --project $FIREBASE_PROJECT--token $FIREBASE_TOKEN deploy
