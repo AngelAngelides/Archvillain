@@ -8,4 +8,4 @@ fi
 
 echo "Deploying to $FIREBASE_PROJECT"
 
-firebase --project $FIREBASE_PROJECT--token $FIREBASE_TOKEN deploy
+firebase --project $FIREBASE_PROJECT --token $FIREBASE_TOKEN deploy
