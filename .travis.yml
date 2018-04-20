@@ -6,6 +6,6 @@ env:
     - FIREBASE_MASTER: archvillain-86957
     - FIREBASE_STAGING: archvillain-staging
 script:
-- firebase --project $FIREBASE_MASTER --token $FIREBASE_TOKEN deploy
+- ./travis-deploy.sh
 install:
 - npm install -g firebase-tools
