@@ -78,7 +78,7 @@
 	
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
 	cursor: pointer;
 	height: 14px;
 	width: 14px;
@@ -90,6 +90,11 @@
 	opacity: 1;
 
 }
+
+.swiper-pagination-bullet:focus {
+outline: none;
+}
+
 .swiper-pagination-bullet-active{
 	background-color: #201821;
 }

@@ -1,10 +1,11 @@
 language: node_js
 node_js:
- - "7"
+  - '7'
+env:
+  global:
+    - FIREBASE_MASTER: archvillain-86957
+    - FIREBASE_STAGING: archvillain-staging
 script:
- - echo "Deploy!!"
+- ./travis-deploy.sh
 install:
- - npm install -g firebase-tools
-after_success:
- - firebase --project archvillain-86957 --token $FIREBASE_TOKEN deploy
- 
+- npm install -g firebase-tools
