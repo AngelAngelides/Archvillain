@@ -10,7 +10,7 @@ var mySwiper = new Swiper ('.swiper-container', {
   },
 
   autoplay: {
-    delay: 10000,
+    delay: 5000,
     disableOnInteraction: true
   },
 
