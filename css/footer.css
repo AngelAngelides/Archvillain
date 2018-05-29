@@ -2,7 +2,6 @@ footer{
 	width:100%;
 	margin-top: 100px;
 	background: #C63636;
-	color:#201821;
 	position:absolute;
 }
 
@@ -10,6 +9,10 @@ footer{
 .footer-brand{
 	padding: 20px;
 	display: inline-block;
+}
+
+.privacypolicy {
+	padding: 20px;
 }
 
 .footer-social {

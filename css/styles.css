@@ -2,8 +2,15 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
+	color: #201821;
+
 }
 
+a {
+	text-decoration: none;
+	color: #201821;
+
+}
 .container{
 	width: 65%;
 	margin: 0 auto;
@@ -73,9 +80,7 @@ nav{
 
 
 .navbar-items a{
-	text-decoration: none;
 	font-size: 25px;
-	color: #201821;
 	border-bottom: 1px solid transparent;
 	padding: 10px;
 	text-transform: uppercase;
@@ -120,4 +125,23 @@ nav{
 .navbar-social .logo-icons img {
 	width: 30px;
 	margin-left: 12px;
+}
+
+.document h1{
+	padding: 5px
+}
+
+.document h2{
+	padding: 5px
+}
+
+.document p{
+	padding: 5px
+}
+.document ul {
+	padding: 5px
+}
+
+.document ul li {
+	padding: 5px
 }
