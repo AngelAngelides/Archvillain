@@ -113,7 +113,6 @@ nav{
 .header-social {
 	transform: translate(-200%, 0%);
 	position:relative;
-	display: inline-block;
 	float: right;
 }
 
