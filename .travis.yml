@@ -4,9 +4,8 @@ node_js:
 env:
   global:
     - FIREBASE_MASTER: archvillain-86957
-    - FIREBASE_STAGING: archvillain-staging
 script:
-  - "./travis-deploy.sh"
+  -
 deploy:
   provider: firebase
    secure: "OLLHrBNRX4q4GBN/wxRnZ9QcctWXvUBO9mtibjACqW3iZL8Kc8xKvMi9o8ll3bjDKGzviS0NO+i8WcjaH0+pX427+cgzygEcmv/NbFqBJrrLFxKANy4U88BaJZLF6j00fdrsCDHgGsy5pnTaWthyoXNHbpn/U7HM817xvDGClOjrXEuvPsaFlmp1aMnCRKwONAhD0MwkgO9I9jZYtXevLk8NyMfjBhp2FbkN9qxsrdGjJHRR8IdjFGevT6g3wF/Gpd4Rik45JZqajLNAA8s3zHkOT4fQiZyiilvolchH3fsEe72pWZDj1njL/SvHxZSdiPTEo0fBEGAJcQYrRNQ2GVU0ksqiEI2lhOGWApxtMt5ZoNrsaShWcZ861HpI7hENrQNpMEUoyN5N6gNnOd630TQMvPHuVyw9E8lkteJj/VSXUPeAO8sLdkDY7NEVhFz+TqkG/r5qDCMIIYTwKFYeLndnL4gN/FzmOAStfGF9STTFtac2MAGyTlhJvUxTQlRfMvrnlxP/mNrcSm+yWZHu79mhPgKYowJaUETU0oxZ/iFFGXd+tJ8gxyw7P54oCXfNULFmL08MWMc3MtLltdfA+/jC3NhIT/a5qmar0SIbPPwkUvCNCgYDPNbuAHJ01sKowXpcdrqtcBDLCO6mh+k+jPubhGsGCke143NW3tOZDWE="
