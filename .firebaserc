@@ -1,5 +1,6 @@
 {
   "projects": {
-    "dev": "archvillain-86957"
+    "dev": "archvillain-86957",
+    "default": "archvillain-86957"
   }
 }
