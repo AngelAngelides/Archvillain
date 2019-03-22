@@ -5,12 +5,12 @@ env:
   global:
     - FIREBASE_MASTER: archvillain-86957
     - FIREBASE_STAGING: archvillain-staging
+    - secure: bXyavOi14hRfLdpIIsIhSSmfc+HR3FOazBublLEL0rFSb4KAwnDVDkOxLuQUYHAKPv8S269Nc9PHer9390PYD7wWI+IWCC18TVhApqqliSCkJNHFgTNbLG8tqIGrb7FPE+ZjvDhTA26Yxv1E+zLWOmcF18PmHTKfRPFxgQJz1Hz+KDg2z5lqi+crUt/bCYIef8oTRhoFvM+B20hUQJAjgojp/y3DGpvH/BAAaXgnNNKhuxNdGPKauBqsZIj1XG5pKXylFVtDqWAOzDAW3aQdvfAZXkWeF5F1skrvaJNjeEvMh4dw8R4rQDBYZ1YeKnRevlQb1pYbCzPOOenCsR6zsLPo09UWN4/tmODCPx3r3TY0SbX10FiIFYSlU82mNyjzWmi1Bb8FqvUQVbyXbrQBEMotRF/C+fy+pqpCCC0youkn2ySzxisXn/efQWunMv5OfkgVpehVsSJIRrnXX5xjM+chmZmB/rbsoRcdIxmTgF7kMTnkT505xM+bRAIrAVWbbwOVZKORrIIGh6uVs7SLUDWWq9gNsWJx3INGU0cBYQ2T4enpQN1KK22oXhAdTnja0+hs7FfSOW/z78ZcrAn89SFGSAcHaiYfrNuKnoWguVkmMwkwwKJhfeOc5eIs2ccU42KzrvALU0If3d3ndZCb8dEDg+WTaq7qGbryYuXKZLY=
+deploy:
+  provider: firebase
+  token:
+    secure: bXyavOi14hRfLdpIIsIhSSmfc+HR3FOazBublLEL0rFSb4KAwnDVDkOxLuQUYHAKPv8S269Nc9PHer9390PYD7wWI+IWCC18TVhApqqliSCkJNHFgTNbLG8tqIGrb7FPE+ZjvDhTA26Yxv1E+zLWOmcF18PmHTKfRPFxgQJz1Hz+KDg2z5lqi+crUt/bCYIef8oTRhoFvM+B20hUQJAjgojp/y3DGpvH/BAAaXgnNNKhuxNdGPKauBqsZIj1XG5pKXylFVtDqWAOzDAW3aQdvfAZXkWeF5F1skrvaJNjeEvMh4dw8R4rQDBYZ1YeKnRevlQb1pYbCzPOOenCsR6zsLPo09UWN4/tmODCPx3r3TY0SbX10FiIFYSlU82mNyjzWmi1Bb8FqvUQVbyXbrQBEMotRF/C+fy+pqpCCC0youkn2ySzxisXn/efQWunMv5OfkgVpehVsSJIRrnXX5xjM+chmZmB/rbsoRcdIxmTgF7kMTnkT505xM+bRAIrAVWbbwOVZKORrIIGh6uVs7SLUDWWq9gNsWJx3INGU0cBYQ2T4enpQN1KK22oXhAdTnja0+hs7FfSOW/z78ZcrAn89SFGSAcHaiYfrNuKnoWguVkmMwkwwKJhfeOc5eIs2ccU42KzrvALU0If3d3ndZCb8dEDg+WTaq7qGbryYuXKZLY=
 script:
-  - npm test
-  - npm run build
-  - ./travis-deploy.sh
-after_success:
-  - firebase use --token $FIREBASE_TOKEN YOUR_FIREBASE_PROJECT_ID
-  - firebase --non-interactive --token $FIREBASE_TOKEN
+  - "./travis-deploy.sh"
 install:
   - npm install -g firebase-tools
