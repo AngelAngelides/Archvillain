@@ -1,37 +1,38 @@
-footer{
-	width:100%;
-	margin-top: 100px;
-	background: #C63636;
-	position:absolute;
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background: #c63636;
+  position: absolute;
 }
 
-
-.footer-brand{
-	padding: 20px;
-	display: inline-block;
+.footer-brand {
+  padding: 20px;
+  display: inline-block;
 }
 
 .privacypolicy {
-	padding: 20px;
+  padding: 20px;
 }
 
 .footer-social {
-	padding: 17px;
-	position:relative;
-	display: inline-block;
-	float: right;
+  padding: 17px;
+  position: relative;
+  display: inline-block;
+  float: right;
 }
 
 .footer-social a {
-	-webkit-link: none;
+  -webkit-link: none;
 }
 
-.footer-social .logo-icons img:hover{
-	transition: all .3s ease-in-out;
-	transform: scale(1.5);
-  }
-  
-.footer-social .logo-icons img{
-	width: 25px;
-	margin-left: 12px;
-  }
+.footer-social .logo-icons svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+}
+
+.footer-social .logo-icons svg:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.5);
+  fill: white;
+}
