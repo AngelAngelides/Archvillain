@@ -86,10 +86,6 @@ nav {
   transition: 0.4s;
 }
 
-.navbar-social {
-  display: none;
-}
-
 .prev {
   display: none;
 }
@@ -114,6 +110,10 @@ nav {
   transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   fill: white;
+}
+
+.navbar-social {
+  padding-top: 24px;
 }
 
 .navbar-social .logo-icons svg {
