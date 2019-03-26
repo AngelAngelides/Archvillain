@@ -114,6 +114,7 @@ nav {
 
 .navbar-social {
   padding-top: 24px;
+  opacity: 0;
 }
 
 .navbar-social .logo-icons svg {

@@ -91,6 +91,10 @@
 }
 
 @media screen and (max-width: 770px) {
+  .navbar-social {
+    opacity: 1;
+  }
+
   .swiper-pagination {
     display: none;
   }
@@ -133,7 +137,8 @@
     top: -58px;
   }
 
-  .navdropdown {
+  .is-open,
+  .is-closed {
     top: 86px;
   }
 
